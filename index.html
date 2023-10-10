@@ -32,12 +32,136 @@
             </tr>
         </tbody>
     </table>
-        <form>
+    
+    <form>
+
+    <!--Campo de texto-->
             <fieldset>
-                <label for="nombre">Sergio callate</label>
-                <input type="text" placeholder="Nombre" id="nombre"> 
+                <legend>
+                    Sección no obligatoria
+                </legend>
+                <label for="camponombre">¿Cómo te digo?</label>
+                <input type="text" name="nombre" placeholder="Nombre" id="camponombre"> 
+                <label for="campoapellido">¿Cuánto?</label>
+                <input type="text" placeholder="Apellido" id="campoapellido"> 
             </fieldset>
-        </form>
+         
+        
+    <!--Campo de contraseña-->
+        <p>
+            <label for="password">Contraseña</label>
+            <input type="password" name="psw" id="password"> 
+        </p>
+
+
+    <!--Campo de email-->
+         <p>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email"> 
+        </p>
+
+
+    <!--Campo de fecha-->
+         <p>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha"> 
+        </p>
+    
+        
+    <!--Campo de hora-->
+    <p>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="hora"> 
+    </p>
+
+
+<!--Campo de subir archivo-->
+    <p>
+       <input type="file" name="archivo" id="archivo"> 
+    </p>
+
+
+
+<!--Campo de número-->
+<p>
+    <label for="numero">Número</label>
+    <input type="number" name="numero" id="numero"> 
+</p>
+
+
+<!--Campo de rango-->
+<p>
+    <label for="rango">Me gusta</label>
+    <input type="range" name="rango" id="rango"> 
+</p>
+
+
+<!--Campo de búsqueda-->
+<p>
+    <label for="buscar">Buscar</label>
+    <input type="search" name="buscar" id="buscar"> 
+</p>
+
+<!--Campo de teléfono-->
+<p>
+    <label for="tel">Teléfono</label>
+    <input type="tel" name="tel" id="tel"> 
+</p>
+
+
+<!--Campo de web-->
+<p>
+    <label for="web">URL/web</label>
+    <input type="url" name="web" id="web"> 
+</p>
+
+<!--Campo de selección-->
+<p>
+    ¿Cuántas hamburguesas comés?
+        <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+</p>
+
+<!--Campo de radio (Solo se elige 1)--> 
+<p>
+    <label for="bebidas">¿Con qué bebida la acompañás?</label><br/>
+<input type="radio" name="bebida">con alcohol
+<input type="radio" name="bebida">sin alcohol
+</p>
+
+
+<!--Campo de checkbox (se eligen varias)--> 
+<p>
+    <label for="bebidas">¿Cuál?</label><br/>
+<input type="checkbox" name="bebida1">Coca
+<input type="checkbox" name="bebida2">Sprite
+<input type="checkbox" name="bebida3">Fanta
+<input type="checkbox" name="bebida4">Paso de los toros
+</p>
+
+
+<!--Campo de color--> 
+<p>
+    <label for="color">¿Qué color te gusta?</label>
+<input type="color" name="color" id="color">
+</p>
+
+
+<!--Campo de área de texto/comentarios--> 
+<p>
+    <label for="comentarios">Comentarios:</label><br/>
+<textarea name="areatexto" id="comentarios" cols="60" rows="10"></textarea>
+</p>
+
+<!--Campo de enviar y resetear--> 
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</p>
+    </form>
     
 </body>
 </html>
