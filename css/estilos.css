@@ -1,6 +1,17 @@
-body{
-    color: aqua;
+ul li{
+    list-style-type: none;
+    display: inline;
 }
-h1{
-    color: blueviolet;
+
+a{
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:yellow
+  
 }
