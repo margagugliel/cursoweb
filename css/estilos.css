@@ -15,3 +15,17 @@ a:hover{
     background-color:yellow
   
 }
+
+body {font-size: 16px;}
+
+.caja{
+    width: 80%; height: 25em;
+    border: 1em solid rebeccapurple;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: yellowgreen;
+}
+
+/* em es relativo al tamaño del padre... rem es relativo al tamaño del body ... el % es relativo al body, sirve más para hacer algo responsive*/
+
